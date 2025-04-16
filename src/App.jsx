@@ -13,14 +13,16 @@ function App() {
   return (
     <>
       <div className="hero h-screen max-h-[689px] bg-no-repeat bg-cover ">
-        <Nav  />
+        <Nav />
         <Hero />
       </div>
       <Experience />
       <Featured />
       <HowitWork />
       <Review />
-      <Rent />
+        <Rent />
+    
+
       <Footer />
     </>
   );

@@ -29,7 +29,7 @@ const Featured = () => {
                 className={
                   category === selected
                     ? "bg-black text-white px-5 py-3 rounded-lg capitalize cursor-pointer"
-                    : "px-5 py-3 rounded-lg capitalize cursor-pointer border border-black "
+                    : "px-5 py-3 rounded-lg capitalize cursor-pointer border border-red-500 "
                 }
               >
                 {category}
